@@ -8,7 +8,6 @@ export default function FirstComponent({ cor, index, toggleLock }) {
 
       {/* Mostra o valor hexadecimal, fonte, tamanho espaçamento */}
       <span className="mb-2 font-arial">{cor.hex}</span>
-
       {/* Botões Copiar e Bloquear */}
       <div className="flex gap-2">
         <button
